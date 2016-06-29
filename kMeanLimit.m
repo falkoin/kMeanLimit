@@ -29,8 +29,8 @@ if showPlot
   hold on
   plot( dataSet, 's-','color', colorBlue, 'MarkerFaceColor', colorBlue )
   plot( clusters, 'v-', 'color', colorRed, 'MarkerFaceColor', colorRed )
-  xlabel( 'Element (n)' )
-  ylabel( 'Zeit (relativ)' )
+  xlabel( 'Element' )
+  ylabel( 'Time' )
   yMaxInData = max( dataSet );
   margin = 1.1;
   yUpperLimit = yMaxInData * margin;
